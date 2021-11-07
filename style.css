@@ -1,0 +1,487 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: grey;
+    margin: 0;
+}
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+}
+.navbar-relative {
+    position: relative;
+    width: 84%;
+    margin : 0 auto;
+    box-sizing: border-box;
+}
+.navbar-relative i {
+    color: crimson;
+    padding-right: 10px;
+    font-size: 26px;
+}
+.navbar-relative a {
+    display: inline-block;
+    color: crimson;
+    padding: 26px 0;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar-relative a i:hover {
+    color:darkred;
+}
+.navbar-absolute {
+    position: absolute;
+    top:0;
+    right: 0;
+    box-sizing: border-box;
+}
+.navbar-absolute a {
+    display: inline-block;
+    padding: 26px 19px;
+    color: crimson;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+}
+.navbar-absolute a:hover {
+    color:darkred;
+}
+
+
+
+
+.header {
+    width: 84%;
+    height: 470px;
+    margin: 73px auto 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-sizing: border-box;
+}
+.header .title h1 {
+    padding: 30px 0 0 0;
+    margin: 0;
+}
+.header .title h1:first-of-type {
+    font-size: 24px;
+    padding: 60px 0 0 0;
+    margin: 0;
+}
+.header .title h2 {
+    color:crimson;
+    font-size: 24px;
+    padding: 30px 0 0 0;
+    margin: 0;
+}
+.header .image {
+    background-image: url(/banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.service {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    background-color: crimson;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+.service h2 {
+    margin: 0;
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.service .garis {
+    width: 34px;
+    height: 32px;
+    border-top: 2px solid white;
+    margin: 0 auto;
+}
+.service .card {
+    width: 84%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto;
+    grid-column-gap: 5%;
+}
+.service .card .design {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.service .card .info {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.service .card .info h3 {
+    margin: 0;
+    text-align: center;
+    color: crimson;
+
+}
+.service .card .info p {
+    text-align: center;
+}
+.service .card .info i {
+    display: block;
+    color: crimson;
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    padding-bottom: 16px;
+}
+
+
+
+
+.project {
+    width: 84%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+.project h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 38px;
+    color: crimson;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.project .garis {
+    width: 34px;
+    height: 32px;
+    border-top: 2px solid crimson;
+    margin: 0 auto;
+}
+.project .project-list {
+    display: grid;
+    grid-template-columns: 30% 62%;
+    box-sizing: border-box;
+    grid-column-gap: 8%;
+    grid-row-gap: 10px 10px 10px;
+}
+.project .project-list .list-info {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+.project .project-list img {
+    width: 100%;
+}
+.project .project-list .list-info h1 {
+    font-size:30px;
+    font-weight: normal;
+}
+.project .project-list .list-info a {
+    display: inline-block;
+    color: crimson;
+    text-decoration: none;
+    text-align: center;
+    width: 80px;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid crimson;
+    border-radius: 14px;
+}
+.project .project-list .list-info a:hover {
+    color: white;
+    background-color: crimson;
+}
+.project .project-list .list-info p {
+    text-align: justify;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    background-color: crimson;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+.footer h4 {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.footer .garis {
+    width: 34px;
+    height: 32px;
+    border-top: 2px solid white;
+    margin: 0 auto;
+}
+.footer .contact-list {
+    width: 84%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+.footer .contact-list a{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.footer .contact-list a:hover{
+    text-decoration:underline;
+}
+.footer .contact-list h4{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+
+
+.about {
+    width: 84%;
+    margin: 73px auto 0 auto;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+.about h1 {
+    text-align: center;
+    margin: 0;
+    color: crimson;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.about .garis {
+    width: 34px;
+    height: 32px;
+    border-top: 2px solid crimson;
+    margin: 0 auto;
+}
+.about img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin:0 auto 20px auto;
+    border-radius: 100px;
+    border: 3px solid crimson;
+    text-align: center;
+    box-sizing: border-box;
+}
+.about img:hover {
+    background-color: crimson;
+    transition-duration: 1.9s;
+    cursor:pointer;
+}
+.about .about-info {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 41% 41%;
+    grid-template-rows: auto;
+    grid-column-gap: 8%;
+}
+.about .about-info .profile {
+    width: 100%;
+}
+.about .about-info .profile h2 {
+    color: crimson;
+    margin: 20px auto;
+    text-align: center;
+}
+.about .about-info .profile .garis {
+    width: 34px;
+    height: 32px;
+    border-top: 2px solid crimson;
+    margin: 0 auto;
+}
+.about .about-info .profile .profile-info {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+.about .about-info .profile .profile-info p {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.about .about-info .profile .profile-info .bio {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 21% 71%;
+    grid-template-areas: auto;
+    grid-column-gap: 8%;
+}
+.about .about-info .profile .profile-info .bio h5 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+.about .about-info .profile .profile-info .bio h5:nth-child(odd) {
+    color: crimson;
+}
+.about .about-info .profile .profile-info .bio h5:last-of-type {
+    padding-bottom: 50px;
+}
+
+
+
+
+.about .about-info .skill {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.about .about-info .skill h2{
+    color: crimson;
+    text-align: center;
+}
+.about .about-info .skill .garis {
+    width: 34px;
+    height: 32px;
+    border-top: 2px solid crimson;
+    margin: 0 auto;
+}
+.about .about-info .skill .skill-info {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+.about .about-info .skill .skill-info h4 {
+    margin: 0;
+    padding: 20px 0 10px 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+.about .about-info .skill .skill-info h4:last-of-type {
+    text-align: right;
+}
+.about .about-info .skill .bar {
+    width: 100%;
+    height: 10px;
+    background-color:lightsteelblue;
+}
+.about .about-info .skill .bar .rate {
+    background-color: crimson;
+}
+.about .about-info .skill .bar .rate.html {
+    width: 90%;
+    height: 10px;
+}
+.about .about-info .skill .bar .rate.css {
+    width: 80%;
+    height: 10px;
+}
+.about .about-info .skill .bar .rate.javascript {
+    width: 30%;
+    height: 10px;
+}
+.about .about-info .skill .bar .rate.mysql {
+    width: 70%;
+    height: 10px;
+}
+.about .about-info .skill .bar .rate.php {
+    width: 70%;
+    height: 10px;
+}
+.about .about-info .skill .bar .rate.java {
+    width: 40%;
+    height: 10px;
+}
+
+
+
+
+
+
+
+/* responsive design */
+@media screen and (max-width:680px){
+    .navbar-relative a {
+        visibility: hidden;
+    }
+    .navbar-absolute {
+        display: none;
+    }
+    .header {
+        width: 84%;
+        height: 650px;
+        display: grid;
+        margin: 73px auto 0 auto;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+	}
+    .service .card {
+        display: grid;
+        width: 84%;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-row-gap: 50px;
+    }
+    .project .project-list {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-row-gap: 5px;
+    }
+    .project .project-list .list-info h1 {
+        text-align: center;
+    }
+    .project .project-list .list-info p {
+        text-align: center;
+    }
+    .project .project-list .list-info a {
+        margin: 20px auto;
+    }
+    .footer .contact-list {
+        width: 84%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+    .footer .contact-list a {
+        text-align: center;
+    }
+    .about .about-info {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+}
